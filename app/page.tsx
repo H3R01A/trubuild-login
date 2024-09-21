@@ -6,7 +6,7 @@ import logo from "@/public/images/logo.svg";
 export default function Home() {
   return (
     <>
-      <div className="container mx-auto px-96">
+      <div className="container mx-auto flex flex-col items-center justify-between">
         <div className="mb-2 mt-10 flex place-content-center place-items-center">
           <Image
             src={logo}
@@ -15,9 +15,9 @@ export default function Home() {
             height={50}
             className="mr-2"
           />
-          <p className="text-xl">TruBuild</p>
+          <span className="text-xl font-semibold text-white">TruBuild</span>
         </div>
-        <div className="flex h-auto flex-col place-content-center items-center gap-2 rounded-e-3xl rounded-s-3xl bg-white py-10">
+        <div className="flex w-[32rem] max-w-[32rem] flex-col place-content-center place-items-center items-center gap-2 rounded-e-3xl rounded-s-3xl bg-white py-10 lg:place-content-center">
           <div>
             <h1 className="text-balance bg-gradient-to-r from-purple-400 to-orange-600 bg-clip-text text-center text-2xl font-bold text-transparent">
               Super charge your construction projects with Trubuild.
@@ -45,7 +45,7 @@ export default function Home() {
                 height={24}
                 className="mr-2"
               />
-              Continue with LinkedIn
+              Continue with Linkedin
             </button>
           </div>
           <h3 className="mb-6 mt-3 text-sm text-black">OR</h3>
@@ -60,7 +60,7 @@ export default function Home() {
             />
           </div>
           <div className="mt-6">
-            <button className="w-96 rounded-e-2xl rounded-s-2xl bg-blue-950 px-6 py-4 text-center text-lg">
+            <button className="w-96 rounded-e-2xl rounded-s-2xl bg-[#0a0a3a] px-6 py-4 text-center text-lg font-bold">
               Create your account
             </button>
           </div>
@@ -77,7 +77,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <footer className="mb-6 mt-8 flex justify-center text-sm text-slate-100">
+      <footer className="mb-6 mt-8 text-center text-sm text-gray-400">
         By continuing, you agree to our terms and Privacv Policy.
       </footer>
     </>
