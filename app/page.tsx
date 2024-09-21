@@ -20,7 +20,7 @@ export default function Home() {
         <div className="flex w-[32rem] max-w-[32rem] flex-col place-content-center place-items-center items-center gap-2 rounded-e-3xl rounded-s-3xl bg-white py-10 lg:place-content-center">
           <div>
             <h1 className="text-balance bg-gradient-to-r from-purple-400 to-orange-600 bg-clip-text text-center text-2xl font-bold text-transparent">
-              Super charge your construction projects with Trubuild.
+              Super charge your construction projects with TruBuild.
             </h1>
           </div>
           <p className="mt-1 text-sm text-gray-400">
